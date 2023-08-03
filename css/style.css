@@ -11,10 +11,10 @@ header {
     color: white;
     padding-top: 6rem;
     padding-bottom: 1rem;
-    background-image: url('../img/paul-gilmore-145802-unsplash.jpg');
+    background-image: url('../img/sea.jpeg');
     background-size: cover;
     background-position: center;
-    background-color: #0084af;
+    background-color: lightblue;
 }
 
 
@@ -123,9 +123,18 @@ h1 {
     line-height: 1.5;
   }
 
+  #about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
   footer {
     color: white;
-    background-color: #3e1305;
+    background-color: lightblue;
   }
 
   footer a {
